@@ -1,0 +1,28 @@
+= Planetary Scale Database Bliss with Spring Boot and Azure Cosmos DB
+
+== Maintainer
+
+* Mark Heckler
+* mailto:mark@thehecklers.com[mark@thehecklers.com]
+* https://twitter.com/mkheck[@mkheck on Twitter]
+
+== Purpose
+
+This meta-repo accompanies my session titled *"Tame your Data Monsters: Spring Boot + Azure Cosmos DB for Planetary Scale Database Bliss"* and includes all code written and/or shown (for exceedingly short sessions, yikes!) within the session and potentially more.
+
+*_Star+watch this repo for updates!_*
+
+== Notes
+
+. To run these applications successfully _in development_ without providing any non-default values, one must run the associated database locally and have it listening for connections on your machine. I use Docker Desktop on my Mac for this, but whatever mechanism you choose that exposes the default port(s) locally is fine.
+. To run these applications in robust, production-capable mode, you'll need to override whatever defaults are required. For Azure Cosmos DB for MongoDB, for example, you only have to override `spring.data.mongodb.uri` for your Spring Boot application. In my examples, I do this by defining an environment variable SPRING_DATA_MONGODB_URI and pointing to a URI exposed by Azure Cosmos DB.
+. For Azure Cosmos DB for PostgreSQL, you must similarly override `spring.datasource.url` using the JDBC URI as shown in the Azure portal (or the `az cli`, etc.)
+
+== Related repositories
+
+https://github.com/mkheck/acdbfp[Azure Cosmos DB for PostgreSQL simple sample app]
+https://github.com/mkheck/acdbfm[Azure Cosmos DB for MongoDB simple sample app]
+
+== Related presentation
+
+https://speakerdeck.com/mkheck/planetary-database-bliss["Tame your Data Monsters" presentation]
