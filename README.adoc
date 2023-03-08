@@ -26,4 +26,4 @@ https://github.com/mkheck/acdbfm[Azure Cosmos DB for MongoDB simple sample app]
 
 == Related presentation
 
-https://speakerdeck.com/mkheck/planetary-database-bliss["Tame your Data Monsters" presentation]
+https://speakerdeck.com/mkheck/tame-your-data-monsters-spring-boot-plus-azure-cosmos-db-for-planetary-scale-database-bliss["Tame your Data Monsters" presentation]
