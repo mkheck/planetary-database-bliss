@@ -5,6 +5,7 @@
 * Mark Heckler
 * mailto:mark@thehecklers.com[mark@thehecklers.com]
 * https://twitter.com/mkheck[@mkheck on Twitter]
+* https://mastodon.cloud/@mkheck[@mkheck on Mastodon]
 
 == Purpose
 
